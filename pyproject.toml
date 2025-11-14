@@ -1,6 +1,6 @@
 [project]
 name = "acemcp"
-version = "0.1.5"
+version = "0.1.6"
 description = "MCP server for codebase indexing and semantic search with multi-encoding support and .gitignore integration"
 readme = "README.md"
 authors = [
@@ -11,7 +11,7 @@ dependencies = [
     "dynaconf>=3.2.12",
     "loguru>=0.7.3",
     "mcp>=1.1.2",
-    "httpx>=0.28.1",
+    "httpx[socks]>=0.28.1",
     "fastapi>=0.115.6",
     "uvicorn[standard]>=0.34.0",
     "toml>=0.10.2",
